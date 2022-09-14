@@ -7,16 +7,62 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | Intro section with dropdown navigation</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&family=Fraunces:opsz,wght@9..144,700&display=swap" rel="stylesheet">
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+  <div class="wrapper">
+          <div class="left">
+                <div class="brand-logo">
+                  <img class="primary-logo" src="./images/logo.svg" alt="Logo">
+                </div>
+          </div>
 
-  Features
+          <div class="middle">
+                  <div class="nav-bar nav-bar-left">
+                      <botton class=" nav-btn left-nav-btn ">Features <img src="./images/icon-arrow-down.svg"></botton>
+                      <botton class=" nav-btn left-nav-btn ">Company <img src="./images/icon-arrow-down.svg"></botton>
+                      <botton class="nav-btn left-nav-btn ">Careers</botton>
+                      <botton class="nav-btn left-nav-btn ">About</botton>
+                  </div>
+                  <div class="large-text">
+                    Make <br/>remote work
+                  </div>
+                  <div class="para">
+                    Get your team in sync, no matter your location. Streamline processes, 
+                    create team rituals, and watch productivity soar.
+                  </div>
+                  <div class="learn-btn">
+                    <button class="learn-more">Learn more</button>
+                  </div>
+                  <div class="other-logos">
+                      <img class="secondary-logo" src="./images/client-databiz.svg" alt="Logo">
+                      <img class="secondary-logo" src="./images/client-audiophile.svg" alt="Logo">
+                      <img  class="secondary-logo" src="./images/client-meet.svg" alt="Logo">
+                      <img  class="secondary-logo" src="./images/client-maker.svg" alt="Logo">
+                  </div>
+          </div>
+          <div class="right">
+                    <div class="nav-bar nav-bar-right">
+                      <botton class="nav-btn right-nav-btn">Login</botton>
+                      <botton class="nav-btn right-nav-btn ">Register</botton>
+                    </div>
+                    <div class="hero">
+                      <img class="hero-image" src="./images/image-hero-desktop.png">
+                    </div>
+          </div>
+
+  </div>
+
+</body>
+</html>
+
+
+<!-- 
+    Features
   Company
   Careers
   About
@@ -31,9 +77,4 @@
 
   Learn more
   
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
-</html>
+ -->
